@@ -1,0 +1,40 @@
+/* Import Pressure font */
+@import url('https://fonts.googleapis.com/css2?family=Pressure:wght@700&display=swap');
+
+.section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developers {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.developer {
+  text-align: center;
+}
+
+.developer img {
+  display: block;
+  margin: 0 auto;
+}
+
+.developer__name {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.developer__links a {
+  font-family: 'Pressure', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.developer__links a:hover {
+  color: #0056b3; /* Optional hover color */
+}
