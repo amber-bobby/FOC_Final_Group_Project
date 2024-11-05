@@ -18,12 +18,15 @@
 }
 
 .developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #f9f9f9;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
   transition: background-color 0.3s ease;
-  width: 150px;
+  width: 200px;
 }
 
 .developer:hover {
@@ -31,14 +34,19 @@
   cursor: pointer;
 }
 
-.developer img {
-  display: block;
-  margin: 0 auto;
+.developer__image {
+  margin-bottom: 10px;
 }
 
 .developer__name {
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 5px;
+}
+
+.developer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .developer__links a {
@@ -49,5 +57,5 @@
 }
 
 .developer__links a:hover {
-  color: #0056b3;
+  color: #0056b3; /* Optional hover color */
 }
