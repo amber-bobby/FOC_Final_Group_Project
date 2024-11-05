@@ -26,7 +26,7 @@
   padding: 20px;
   text-align: center;
   transition: background-color 0.3s ease;
-  width: 200px;
+  width: 150px;
 }
 
 .developer:hover {
@@ -34,7 +34,10 @@
   cursor: pointer;
 }
 
-.developer__image {
+.developer img {
+  display: block;
+  margin: 0 auto;
+  .develper__image {
   margin-bottom: 10px;
 }
 
